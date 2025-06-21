@@ -1,5 +1,7 @@
 # Django API - Task Manager
 
+Live at: https://django-api-cnez.onrender.com
+
 A Django RESTful API project for managing tasks and user accounts, with JWT authentication and modern best practices.
 
 ---
