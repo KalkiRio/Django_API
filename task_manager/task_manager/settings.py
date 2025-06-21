@@ -3,6 +3,11 @@ from pathlib import Path
 from decouple import config
 import dj_database_url
 from datetime import timedelta
+from dotenv import load_dotenv
+load_dotenv()
+
+DEBUG = os.getenv('DJANGO_DEBUG', 'False') == 'True'
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
